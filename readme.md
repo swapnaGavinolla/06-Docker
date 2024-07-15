@@ -14,7 +14,7 @@
 
 - docker ps -a -q   ---> gives container id's
 
-- docker pull &lt;image-name&gt;  --->version   ---> downloads the image from local/docker hub
+- docker pull &lt;image-name&gt;  -version   ---> downloads the image from local/docker hub
 
 - docker create &lt;image-id&gt;   ---> creates the container
 
@@ -130,7 +130,7 @@
 
 ## building image
 
-### docker build -t &lt;image-name&gt;-&lt;version&gt; .
+### docker build -t &lt;image-name&gt;:&lt;version&gt; .
 
 ## runnig container
 
